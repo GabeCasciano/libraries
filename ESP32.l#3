@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.1.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="ESP32">
+<pad name="SDA" x="-11.43" y="10.16" drill="0.6" shape="square"/>
+<pad name="21" x="-1.27" y="10.16" drill="0.6"/>
+<pad name="SCL" x="-11.43" y="8.89" drill="0.6"/>
+<pad name="14" x="-11.43" y="7.62" drill="0.6"/>
+<pad name="32" x="-11.43" y="6.35" drill="0.6"/>
+<pad name="15" x="-11.43" y="5.08" drill="0.6"/>
+<pad name="33" x="-11.43" y="3.81" drill="0.6"/>
+<pad name="27" x="-11.43" y="2.54" drill="0.6"/>
+<pad name="12" x="-11.43" y="1.27" drill="0.6"/>
+<pad name="13" x="-11.43" y="0" drill="0.6"/>
+<pad name="USB" x="-11.43" y="-1.27" drill="0.6"/>
+<pad name="EN" x="-11.43" y="-2.54" drill="0.6"/>
+<pad name="TX" x="-1.27" y="8.89" drill="0.6"/>
+<pad name="RX" x="-1.27" y="7.62" drill="0.6"/>
+<pad name="MI" x="-1.27" y="6.35" drill="0.6"/>
+<pad name="MO" x="-1.27" y="5.08" drill="0.6"/>
+<pad name="SCK" x="-1.27" y="3.81" drill="0.6"/>
+<pad name="A5" x="-1.27" y="2.54" drill="0.6"/>
+<pad name="A4" x="-1.27" y="1.27" drill="0.6"/>
+<pad name="A3" x="-1.27" y="0" drill="0.6"/>
+<pad name="A2" x="-1.27" y="-1.27" drill="0.6"/>
+<pad name="A1" x="-1.27" y="-2.54" drill="0.6"/>
+<pad name="BAT" x="-11.43" y="-3.81" drill="0.6"/>
+<pad name="A0" x="-1.27" y="-3.81" drill="0.6"/>
+<pad name="GND" x="-1.27" y="-5.08" drill="0.6"/>
+<pad name="NC" x="-1.27" y="-6.35" drill="0.6"/>
+<pad name="3V" x="-1.27" y="-7.62" drill="0.6"/>
+<pad name="RST" x="-1.27" y="-8.89" drill="0.6"/>
+<wire x1="-13.97" y1="13.97" x2="1.27" y2="13.97" width="0.127" layer="21"/>
+<wire x1="1.27" y1="13.97" x2="1.27" y2="-13.97" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-13.97" x2="-13.97" y2="-13.97" width="0.127" layer="21"/>
+<wire x1="-13.97" y1="-13.97" x2="-13.97" y2="13.97" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ESP32">
+<wire x1="-17.78" y1="20.32" x2="7.62" y2="20.32" width="0.254" layer="94"/>
+<wire x1="7.62" y1="20.32" x2="7.62" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-22.86" x2="-17.78" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-22.86" x2="-17.78" y2="20.32" width="0.254" layer="94"/>
+<pin name="21" x="7.62" y="17.78" length="short"/>
+<pin name="TX" x="7.62" y="15.24" length="short"/>
+<pin name="RX" x="7.62" y="12.7" length="short"/>
+<pin name="MI" x="7.62" y="10.16" length="short"/>
+<pin name="MO" x="7.62" y="7.62" length="short"/>
+<pin name="SCK" x="7.62" y="5.08" length="short"/>
+<pin name="A5" x="7.62" y="2.54" length="short"/>
+<pin name="A4" x="7.62" y="0" length="short"/>
+<pin name="A3" x="7.62" y="-2.54" length="short"/>
+<pin name="A2" x="7.62" y="-5.08" length="short"/>
+<pin name="A1" x="7.62" y="-7.62" length="short"/>
+<pin name="A0" x="7.62" y="-10.16" length="short"/>
+<pin name="GND" x="7.62" y="-12.7" length="short"/>
+<pin name="NC" x="7.62" y="-15.24" length="short"/>
+<pin name="3V" x="7.62" y="-17.78" length="short"/>
+<pin name="RST" x="7.62" y="-20.32" length="short"/>
+<pin name="SDA" x="-17.78" y="17.78" length="short" rot="R180"/>
+<pin name="SCL" x="-17.78" y="15.24" length="short" rot="R180"/>
+<pin name="14" x="-17.78" y="12.7" length="short" rot="R180"/>
+<pin name="32" x="-17.78" y="10.16" length="short" rot="R180"/>
+<pin name="15" x="-17.78" y="7.62" length="short" rot="R180"/>
+<pin name="33" x="-17.78" y="5.08" length="short" rot="R180"/>
+<pin name="27" x="-17.78" y="2.54" length="short" rot="R180"/>
+<pin name="13" x="-17.78" y="-2.54" length="short" rot="R180"/>
+<pin name="12" x="-17.78" y="0" length="short" rot="R180"/>
+<pin name="USB" x="-17.78" y="-5.08" length="short" rot="R180"/>
+<pin name="EN" x="-17.78" y="-7.62" length="short" rot="R180"/>
+<pin name="BAT" x="-17.78" y="-10.16" length="short" rot="R180"/>
+<text x="-10.16" y="-10.16" size="1.27" layer="94" rot="R90">ESP32 Feather</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ESP32">
+<gates>
+<gate name="G$1" symbol="ESP32" x="-15.24" y="7.62"/>
+</gates>
+<devices>
+<device name="" package="ESP32">
+<connects>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="27" pad="27"/>
+<connect gate="G$1" pin="32" pad="32"/>
+<connect gate="G$1" pin="33" pad="33"/>
+<connect gate="G$1" pin="3V" pad="3V"/>
+<connect gate="G$1" pin="A0" pad="A0"/>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="A4" pad="A4"/>
+<connect gate="G$1" pin="A5" pad="A5"/>
+<connect gate="G$1" pin="BAT" pad="BAT"/>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="MI" pad="MI"/>
+<connect gate="G$1" pin="MO" pad="MO"/>
+<connect gate="G$1" pin="NC" pad="NC"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RX" pad="RX"/>
+<connect gate="G$1" pin="SCK" pad="SCK"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="USB" pad="USB"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
